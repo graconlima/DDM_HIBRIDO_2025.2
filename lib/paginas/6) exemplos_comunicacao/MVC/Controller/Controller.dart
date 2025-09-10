@@ -1,0 +1,1 @@
+//Para gerenciar apenas a comunicação entre View e Model
