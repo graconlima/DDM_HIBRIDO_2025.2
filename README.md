@@ -10,13 +10,15 @@
 
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EQD0vC2vW4pFt_ov6UezECgB7_PtGPjvJy8zme4rj946lA?e=gwUMim">Aula 1</a> - Introdução ao Desenvolvimento para Dispositivos Móveis</p>
 
-<!--
-# Link para as apresentações: <p><a class="external-link" href="https://meet.google.com/rvh-bwnw-ozf"> Apresentações </a></p>
-
 <br>
 
 Desenvolvimento Híbrido - Flutter 
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EdGfq5H1fGtIgHUIg_iqWIYBgFx3o9X0DLCaALh4zgkeuw?e=8sIL2C">Aula 1 </a> - Introdução</p>
+
+<!--
+# Link para as apresentações: <p><a class="external-link" href="https://meet.google.com/rvh-bwnw-ozf"> Apresentações </a></p>
+
+
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EXbB4lSe8C5EpxuZVJvRf-4BqSB-n3BzGpg7aCBR6X2n4A?e=ig7zwG">Aula 2 </a> - Dart </p>
 
 <br>
