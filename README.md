@@ -1,5 +1,4 @@
-# Link para as apresentações: <p><a class="external-link" href="https://meet.google.com/rvh-bwnw-ozf"> Apresentações </a></p>
-## DDM 2025.1
+## DDM 2025.2
 
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EYZ_NaBnQhJPpFxFC27nn3cB61I0xeBszp_Gw7ssEd0GxQ?e=p0tTYd">e-book </a> - Notas de Aula</p>
 
@@ -9,8 +8,17 @@
 
 <br>
 
+<p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EQD0vC2vW4pFt_ov6UezECgB7_PtGPjvJy8zme4rj946lA?e=gwUMim">Aula 1</a> - Introdução ao Desenvolvimento para Dispositivos Móveis</p>
+
+<br>
+
 Desenvolvimento Híbrido - Flutter 
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EdGfq5H1fGtIgHUIg_iqWIYBgFx3o9X0DLCaALh4zgkeuw?e=8sIL2C">Aula 1 </a> - Introdução</p>
+
+<!--
+# Link para as apresentações: <p><a class="external-link" href="https://meet.google.com/rvh-bwnw-ozf"> Apresentações </a></p>
+
+
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EXbB4lSe8C5EpxuZVJvRf-4BqSB-n3BzGpg7aCBR6X2n4A?e=ig7zwG">Aula 2 </a> - Dart </p>
 
 <br>
@@ -38,7 +46,7 @@ Aula 5 - Conectividade e Persistência
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:t:/s/DDM2024.1/Efx51Ts5729JuvGjLDqrThAB39ZXaujljY7Jqvd4W1CYzw?e=LCVJbS">Aula 5.3 </a> - Introdução, UI, Estado, HTTP e BD  (links das videoaulas) </p>
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/ERZj51knrB1OoFY-gTnFKfUB8E3Q7sVOROlAes6l3pctZw?e=eJueqa">Aula 5.4 </a> - Tarefa 4 (API e BD - Nativo ou Híbrido) </p>
 
-<!--
+
 
 
 
