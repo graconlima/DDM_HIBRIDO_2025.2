@@ -1,12 +1,12 @@
 void main(){
 
 //Exemplo 1 - variaveis
-/*var dolar = 100, real  = 5.45;
+/*var dolar = 500, real  = 4.97;
 var resultado = dolar * real;
 print("O valor de \$ $dolar em reais e: $resultado");*/
 
 //Exemplo 2 - condicional simples
-/*var numero = 10;
+/*var numero = 11;
 
 if( (numero >= 1) && (numero <= 10) ){
 
@@ -15,7 +15,7 @@ if( (numero >= 1) && (numero <= 10) ){
 
 //Exemplo 3 - condicional composta
 
-/*var numero = 10;
+/*var numero = 11;
 if((numero >= 1) && (numero <=10) )
 //teste verdadeiro
 {
@@ -38,8 +38,7 @@ while(contador >= 0){
 }*/
 
 //4.2 - laco for
-/*  var contador  = 0
-  for(; contador <= 10 ; contador++){
+/*for(var contador  = 0 ; contador <= 10 ; contador++){
  print("Valor do contador $contador");
 }*/
 
@@ -52,11 +51,11 @@ do{
 }while(contador <= 10);*/
 
 //Exemplo 5 - Funcoes
-print(soma(3,4));
+//print(soma(3,4));
 
 }
 
-int soma(int a, int b){
+/*int soma(int a, int b){
 
   return a+b;
-}
+}*/

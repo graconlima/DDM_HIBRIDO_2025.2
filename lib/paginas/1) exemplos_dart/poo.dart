@@ -14,7 +14,7 @@ void main(){
   String _nome = "";
 
   //metodos modificadores
-  set nome(String nome){
+  void set nome(String nome){
     _nome  = nome;
   }
 
@@ -84,46 +84,7 @@ void main(){
   print("O nome da pessoa e: ${maria.nome}");
 }*/
 
-//Exemplo 5 - sobrecarga de métodos
-<<<<<<< HEAD
-class Pessoa{
-=======
-/*class Pessoa{
->>>>>>> 655b50bb5565c487286178239e9c36b147c1f248
-  double salario = 0.0;
-
-  //Nao eh possivel no sentido classico
-  /*int calculo(int a, int b){
-    return a+b;
-  }
-
-  double calculo(double a, double b){
-    return a+b;
-  }*/
-
-  void calculo(double s, [double bonus = 0.0]){
-    salario = s+bonus;
-  }
-
-}
-
-void main(){
-
-  Pessoa maria = Pessoa();
-
-  //se passar o parametro sera um bonus
-  maria.calculo(10, 20);
-  print("O salario e ${maria.salario}");
-<<<<<<< HEAD
-}
-
-
 //Exemplo 5 - Herança
-=======
-}*/
-
-//Exemplo 6 - Herança
->>>>>>> 655b50bb5565c487286178239e9c36b147c1f248
 /*class Aluno{
   String nome = "";
   double nota1 = 0.0;
@@ -161,20 +122,3 @@ void main(){
   print("Media do aluno(a) ${a1.nome}: ${a1.media()}");
   print("Media do aluno(a) ${a2.nome}: ${a2.media()}");
 }*/
-<<<<<<< HEAD
-
-/*void main(){
-
-  var lista = {"ave":"Canario", "peixe":"Tucunare"};
-  lista["Mamifero"] = "Baleia";
-
-  lista.remove("Mamifero");
-
-  /*var lista = Map();
-  lista["ave"] = "Canario";
-  lista["peixe"] = "Tucunare";*/
-
-  print(lista);
-}*/
-=======
->>>>>>> 655b50bb5565c487286178239e9c36b147c1f248
