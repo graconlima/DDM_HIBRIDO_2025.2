@@ -1,7 +1,7 @@
 void main(){
 
 //Exemplo 1 - variaveis
-/*var dolar = 500, real  = 4.97;
+/*var dolar = 500, real  = 5.34;
 var resultado = dolar * real;
 print("O valor de \$ $dolar em reais e: $resultado");*/
 
@@ -51,11 +51,11 @@ do{
 }while(contador <= 10);*/
 
 //Exemplo 5 - Funcoes
-//print(soma(3,4));
+print(soma(3,4));
 
 }
 
-/*int soma(int a, int b){
+int soma(int a, int b){
 
   return a+b;
-}*/
+}

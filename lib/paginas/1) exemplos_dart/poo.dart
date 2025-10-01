@@ -1,5 +1,5 @@
 //Exemplo 1 - classes e instancias
-/*class Pessoa{
+class Pessoa{
   String nome = "";
 }
 
@@ -7,7 +7,7 @@ void main(){
   Pessoa p = new Pessoa();
   p.nome = "Joao";
   print(p.nome);
-}*/
+}
 
 //Exemplo 2 - métodos e visibilidade
 /*class Pessoa{
