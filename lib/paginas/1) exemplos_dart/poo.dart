@@ -1,5 +1,5 @@
 //Exemplo 1 - classes e instancias
-class Pessoa{
+/*class Pessoa{
   String nome = "";
 }
 
@@ -7,7 +7,18 @@ void main(){
   Pessoa p = new Pessoa();
   p.nome = "Joao";
   print(p.nome);
+}*/
+
+//Exemplo 1.1 - encapsulamento
+/*class Pessoa{
+  String? _nome;
 }
+
+void main(){
+  Pessoa p = new Pessoa();
+  p._nome = "Joao";
+  print(p._nome);
+}*/
 
 //Exemplo 2 - métodos e visibilidade
 /*class Pessoa{
