@@ -1,4 +1,4 @@
-## DDM 2025.1
+pp## DDM 2025.1
 
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EYZ_NaBnQhJPpFxFC27nn3cB61I0xeBszp_Gw7ssEd0GxQ?e=p0tTYd">e-book </a> - Notas de Aula</p>
 
@@ -12,13 +12,14 @@ Desenvolvimento Híbrido - Flutter
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EdGfq5H1fGtIgHUIg_iqWIYBgFx3o9X0DLCaALh4zgkeuw?e=8sIL2C">Aula 1 </a> - Introdução</p>
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EXbB4lSe8C5EpxuZVJvRf-4BqSB-n3BzGpg7aCBR6X2n4A?e=ig7zwG">Aula 2 </a> - Dart </p>
 
-<!--
-# Link para as apresentações: <p><a class="external-link" href="https://meet.google.com/rvh-bwnw-ozf"> Apresentações </a></p>
-
 <br>
 
 Aula 3 - Interface Gráfica
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EaMjw86Q0txFi1mfEI2gUT8BA-YIxc5lKkaJTt1ARexWjg?e=Za0aGT">Aula 3.1 </a> - Widgets </p>
+
+<!--
+# Link para as apresentações: <p><a class="external-link" href="https://meet.google.com/rvh-bwnw-ozf"> Apresentações </a></p>
+
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/ET8MQA1IUABOj6OGQHsIptUB52zpFgsIivHb2SR84EKO8Q?e=YFRgo8">Aula 3.2 </a> - Layout </p>
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/Eb9DbbwIy9JEhAFGYRW422QB_xf0aA2-fpSPiVf_KaqO1A?e=dsiR9W">Aula 3.3 </a> - Eventos </p>
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EVolAswXAKBPlbvgfUI6Pj8BJZIDzukj0IfAF_B_dx0a3A?e=GW5hIl"> Aula 3.4 </a> - Navegação </p>
