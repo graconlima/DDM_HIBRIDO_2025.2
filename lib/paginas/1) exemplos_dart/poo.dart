@@ -74,8 +74,9 @@ void main(){
 //Exemplo 4 - construtores 2
 /*class Pessoa{
   String nome = "";
+  String? sobrenome;
 
-  Pessoa({required this.nome});
+  Pessoa({required this.nome, this.sobrenome});
 
   //metodos modificadores
   set nomeP(String nome){
@@ -89,10 +90,10 @@ void main(){
 }
 
 void main(){
-  Pessoa maria = Pessoa(nome: "Joao");
-  maria.nome = "Maria de Jesus";
+  Pessoa p = Pessoa(nome: "Joao");
+  p.sobrenome = "Maria de Jesus";
 
-  print("O nome da pessoa e: ${maria.nome}");
+  print("O nome da pessoa e: ${p.nome} ${p.sobrenome}");
 }*/
 
 //Exemplo 5 - Herança
