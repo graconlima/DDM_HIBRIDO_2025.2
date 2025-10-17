@@ -2,12 +2,20 @@ import 'package:flutter/material.dart';
 
 //Exemplo 1 - container
 /*void main(){
-  runApp(Container(color: Color(0xFF9A7676)));
+  runApp(Container(color: Color(0xFF00FF00)));
 }*/
 
 //Exemplo 2 - saida de dados (Text)
 /*void main(){
-  runApp(Text("Ola Mundo!", textDirection: TextDirection.ltr, textAlign: TextAlign.center));
+  runApp(Text(
+      "Ola Mundo!",
+      textDirection: TextDirection.ltr,
+      textAlign: TextAlign.center,
+      style: TextStyle(
+          color: Color.fromARGB(255, 0, 255, 0),
+          fontFamily: 'RobotoMono',//'LiberationMono' ,//'Raleway',//'RobotoMono',
+          fontSize: 74)
+  ));
 }*/
 
 //Exemplo 3 - Widget sem estado
@@ -30,7 +38,18 @@ class MinhaWidget extends StatelessWidget{
   Widget build(BuildContext bc){
     return MaterialApp(
         title: "Ola Mundo!",
-        home: Scaffold(appBar: AppBar(title: Text("Ola")), body: Center(child: Text("Mundo")))
+        home: Scaffold(
+            appBar: AppBar(title: Text("Ola")),
+            body: Center(child: Image.network('https://picsum.photos/250?image=9')),
+            floatingActionButton: FloatingActionButton(
+                onPressed: (){},
+                child: Icon(
+                  Icons.star,
+                  color: Colors.amber,
+                  size: 40,
+                )
+            ),
+        )
     );
   }
 }*/
@@ -45,7 +64,9 @@ class MinhaWidget extends StatelessWidget{
   Widget build(BuildContext bc){
     return CupertinoApp(
         title: "Ola Mundo!",
-        home: CupertinoPageScaffold(child: Center(child: Text("Mundo")))
+        home: CupertinoPageScaffold(
+            child: Center(child: Text("Mundo"))
+        )
     );
   }
 }*/
@@ -59,7 +80,9 @@ class MinhaWidget extends StatelessWidget{
   Widget build(BuildContext bc){
     return MaterialApp(
         title: "Ola Mundo!",
-        home: Scaffold(appBar: AppBar(title: Text("Ola")), body: Center(child: AlertDialog(content: Text("Mundo"))))
+        home: Scaffold(
+            appBar: AppBar(title: Text("Ola")),
+            body: Center(child: AlertDialog(content: Text("Mundo"))))
     );
   }
 }*/
@@ -87,7 +110,7 @@ class MinhaWidget extends StatelessWidget{
 
 
 //Exemplo 8 - icones e disposição do código em Dart
-/*void main(){
+void main(){
   runApp(MinhaWidget());
 }
 
@@ -107,7 +130,7 @@ class MinhaWidget extends StatelessWidget{
       )
     );
   }
-}*/
+}
 
 //Exemplo 9 - entrada de dados (TextField - decoracao)
 /*void main(){
@@ -146,7 +169,7 @@ class MinhaWidget extends StatelessWidget{
 }*/
 
 //Exemplo 11 - botoes
-void main(){
+/*void main(){
   runApp(MinhaWidget());
 }
 
@@ -168,7 +191,7 @@ class MinhaWidget extends StatelessWidget{
         )
     );
   }
-}
+}*/
 
 
 
