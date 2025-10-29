@@ -53,7 +53,7 @@ class MinhaApp extends StatelessWidget{
   }
 }*/
 
-//Exemplo 4: Row
+//Exemplo 4: Row e Column
 /*void main(){
   runApp(MinhaApp());
 }
