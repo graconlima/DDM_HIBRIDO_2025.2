@@ -53,7 +53,7 @@ class MinhaApp extends StatelessWidget{
   }
 }*/
 
-//Exemplo 4: Row
+//Exemplo 4: Row e Column
 /*void main(){
   runApp(MinhaApp());
 }
@@ -88,3 +88,136 @@ class MinhaApp extends StatelessWidget{
     );
   }
 }*/
+
+//Exemplo 5: Expanded e Flexible
+/*void main(){
+  runApp(MinhaApp());
+}
+
+class MinhaApp extends StatelessWidget{
+  Widget build(BuildContext bc){
+    return MaterialApp(
+        title: "Ola Mundo!",
+        home: Scaffold(
+            appBar: AppBar(title: Text("OlaApp")),
+            body:
+            Row(
+              children: [
+                // Expanded(flex: 1, child: Container(color: Colors.red)),
+                // Expanded(flex: 2, child: Container(color: Colors.green)),
+                // Expanded(flex: 1, child: Container(color: Colors.blue)),
+
+                // Flexible(flex: 1, child: Container(color: Colors.red)),
+                // Flexible(flex: 2, child: Container(color: Colors.green)),
+                // Flexible(flex: 1, child: Container(color: Colors.blue)),
+              ],
+            )
+        )
+    );
+  }
+}*/
+
+// Exemplo 6: Padding, Align e SizedBox
+/*void main(){
+  runApp(MinhaApp());
+}
+
+class MinhaApp extends StatelessWidget{
+  Widget build(BuildContext bc){
+    return MaterialApp(
+        title: "Ola Mundo!",
+        home: Scaffold(
+            appBar: AppBar(title: Text("OlaApp")),
+            body:
+            // Padding(
+            //   padding: EdgeInsets.all(10),
+            //   child: Text('Com espaçamento interno'),
+            // )
+
+            // Align(
+            //   alignment: Alignment.bottomRight,
+            //   child: Icon(Icons.send, color: Colors.blue),
+            // )
+
+            //Row(
+            // Column(
+            //   children: [
+            //     Icon(Icons.star),
+            //     SizedBox(width: 10),
+            //     Icon(Icons.star),
+            //     SizedBox(width: 10, height: 100),
+            //     Icon(Icons.star),
+            //   ]
+            // )
+        )
+    );
+  }
+}*/
+
+//Exemplo 7: Stack e Positioned
+/*void main(){
+  runApp(MinhaApp());
+}
+
+class MinhaApp extends StatelessWidget{
+  Widget build(BuildContext bc){
+    return MaterialApp(
+        title: "Ola Mundo!",
+        home: Scaffold(
+            appBar: AppBar(title: Text("OlaApp")),
+            body:
+            Stack(
+              children: [
+                Container(color: Colors.blue),
+                Positioned(
+                  left: 50,
+                  bottom: 100,
+                  child: Icon(Icons.star, color: Colors.yellow),
+                ),
+              ],
+            )
+        )
+    );
+  }
+}*/
+
+//Exemplo 8: ListView
+void main(){
+  runApp(MinhaApp());
+}
+
+class MinhaApp extends StatelessWidget{
+  Widget build(BuildContext bc){
+    return MaterialApp(
+        title: "Ola Mundo!",
+        home: Scaffold(
+            appBar: AppBar(title: Text("OlaApp")),
+            body:
+            // ListView(
+            //   padding: EdgeInsets.all(8),
+            //   children: [
+            //     Container(color: Colors.amber, height: 100),
+            //     Container(color: Colors.indigo, height: 100),
+            //     Container(color: Colors.green, height: 100),
+            //     Container(color: Colors.amber, height: 100),
+            //     Container(color: Colors.indigo, height: 100),
+            //     Container(color: Colors.green, height: 100),
+            //     Container(color: Colors.amber, height: 100),
+            //     Container(color: Colors.indigo, height: 100),
+            //     Container(color: Colors.green, height: 100),
+            //   ],
+            // )
+
+            ListView.builder(
+              itemCount: 1000,
+              itemBuilder: (context, index) {
+                return ListTile(
+                  leading: Icon(Icons.person),
+                  title: Text('Usuário $index'),
+                );
+              },
+            )
+        )
+    );
+  }
+}
