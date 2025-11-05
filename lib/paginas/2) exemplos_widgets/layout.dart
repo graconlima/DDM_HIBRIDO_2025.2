@@ -342,7 +342,7 @@ class MinhaApp extends StatelessWidget{
 }*/
 
 
-//Exemplo 13: Slaver
+//Exemplo 13: Sliver
 /*void main(){
   runApp(MinhaApp());
 }
