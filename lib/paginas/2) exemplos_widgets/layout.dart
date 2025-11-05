@@ -182,7 +182,7 @@ class MinhaApp extends StatelessWidget{
 }*/
 
 //Exemplo 8: ListView
-void main(){
+/*void main(){
   runApp(MinhaApp());
 }
 
@@ -218,6 +218,194 @@ class MinhaApp extends StatelessWidget{
               },
             )
         )
+    );
+  }
+}*/
+
+//Responsividade
+//Exemplo 9: MediaQuery
+/*void main(){
+  runApp(MinhaApp());
+}
+
+class MinhaApp extends StatelessWidget {
+  Widget build(BuildContext context) {
+    final largura = MediaQuery.of(context).size.width;
+    final altura = MediaQuery.of(context).size.height;
+    return Container(
+      color: Colors.blueGrey,
+      width: double.infinity,
+      height: 200,
+      child: Center(
+        child: Text(
+          largura < 600
+              ? 'Tela pequena'
+              : 'Tela grande',
+          style: TextStyle(color: Colors.white, fontSize: (altura > 100) ? 30 : 10),
+          textDirection: TextDirection.ltr,
+        ),
+      ),
+    );
+  }
+}*/
+
+//Exemplo 10: LayoutBuilder
+/*void main(){
+  runApp(MinhaApp());
+}
+
+class MinhaApp extends StatelessWidget{
+  Widget build(BuildContext bc){
+    return MaterialApp(
+      title: "Ola Mundo!",
+      home: Scaffold(
+        appBar: AppBar(title: Text("OlaApp")),
+        body:
+         LayoutBuilder(
+          builder: (context, constraints) {
+            if (constraints.maxWidth < 1000) {
+              return Column(
+                children: [
+                  Icon(Icons.phone_android, size: 100),
+                  Text('Layout em coluna', textDirection: TextDirection.ltr),
+                ]
+              );
+            } else {
+              return Row(
+                children: [
+                  Icon(Icons.desktop_mac, size: 100),
+                  Text('Layout em linha', textDirection: TextDirection.ltr),
+                ]
+              );
+            }
+          },
+        )
+      )
+    );
+  }
+}*/
+
+//Exemplo 11: OrientationBuilder
+/*void main(){
+  runApp(MinhaApp());
+}
+
+class MinhaApp extends StatelessWidget{
+  Widget build(BuildContext bc){
+    return MaterialApp(
+      title: "Ola Mundo!",
+      home: Scaffold(
+        appBar: AppBar(title: Text("OlaApp")),
+        body:
+        OrientationBuilder(
+          builder: (context, orientation) {
+            return orientation == Orientation.portrait
+            ? Column(
+              children: [Icon(Icons.image), Text('Retrato')],
+              )
+            : Row(
+              children: [Icon(Icons.image), Text('Paisagem')],
+              );
+          },
+        )
+      )
+    );
+  }
+}*/
+
+//Exemplo 12: GridView
+/*void main(){
+  runApp(MinhaApp());
+}
+
+class MinhaApp extends StatelessWidget{
+  Widget build(BuildContext bc){
+    return MaterialApp(
+        title: "Ola Mundo!",
+        home: Scaffold(
+            appBar: AppBar(title: Text("OlaApp")),
+            body:
+            GridView.count(
+              crossAxisCount: 2,
+              crossAxisSpacing: 8,
+              mainAxisSpacing: 8,
+              children: List.generate(6, (index) {
+                return Container(
+                  color: Colors.blueGrey[100 * (index % 9)],
+                  child: Center(child: Text('Item $index')),
+                );
+              }),
+            )
+        )
+    );
+  }
+}*/
+
+
+//Exemplo 13: Slaver
+/*void main(){
+  runApp(MinhaApp());
+}
+
+class MinhaApp extends StatelessWidget{
+  Widget build(BuildContext bc){
+    return MaterialApp(
+        title: "Ola Mundo!",
+        home:
+        Scaffold(
+          body: CustomScrollView(
+            slivers: [
+              SliverAppBar(
+                expandedHeight: 200,
+                flexibleSpace: FlexibleSpaceBar(
+                  title: Text('Galeria'),
+                  background: Image.asset('assets/header.jpg', fit: BoxFit.cover),
+                ),
+              ),
+              SliverList(
+                delegate: SliverChildBuilderDelegate(
+
+                      (context, index) => ListTile(title: Text('Item $index')),
+                  childCount: 30,
+                ),
+              ),
+            ],
+          ),
+        )
+    );
+  }
+}*/
+
+//Exemplo 14: Reutilizacao Adaptativa
+void main(){
+  runApp(MinhaApp(
+      items: List<String>.generate(
+          10,
+          (i){return "Item: "+i.toString();}
+      )
+  )
+  );
+}
+class MinhaApp extends StatelessWidget {
+  final List<String> items;
+  MinhaApp({required this.items});
+  @override
+  Widget build(BuildContext context) {
+    final width = MediaQuery.of(context).size.width;
+    return MaterialApp(
+      title: "Ola Mundo!",
+      home: Scaffold(
+      appBar: AppBar(title: Text("OlaApp")),
+      body:
+        width < 600
+        ? ListView(
+          children: items.map((e) => Card(child: Text(e, textDirection: TextDirection.ltr,))).toList(),
+          )
+        : GridView.count(
+          crossAxisCount: 3,
+          children: items.map((e) => Card(child: Text(e, textDirection: TextDirection.ltr))).toList(),
+          )
+      )
     );
   }
 
