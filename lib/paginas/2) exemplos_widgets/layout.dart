@@ -65,25 +65,25 @@ class MinhaApp extends StatelessWidget{
         home: Scaffold(
             appBar: AppBar(title: Text("OlaApp")),
             body:
-            // Column(
-            //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            //     crossAxisAlignment: CrossAxisAlignment.stretch,
-            //     mainAxisSize: MainAxisSize.min,
-            //     children: [
-            //       Icon(Icons.star, color: Colors.amber),
-            //       Icon(Icons.star, color: Colors.amber),
-            //       Icon(Icons.star, color: Colors.amber),
-            //     ])
+            Column(
+                mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                mainAxisSize: MainAxisSize.min,
+                children: [
+                  Icon(Icons.star, color: Colors.amber),
+                  Icon(Icons.star, color: Colors.amber),
+                  Icon(Icons.star, color: Colors.amber),
+                ])
 
-            // Row(
-            //     mainAxisAlignment: MainAxisAlignment.spaceAround,
-            //     crossAxisAlignment: CrossAxisAlignment.stretch,
-            //     mainAxisSize: MainAxisSize.max,
-            //     children: [
-            //       Icon(Icons.star, color: Colors.amber),
-            //       Icon(Icons.star, color: Colors.amber),
-            //       Icon(Icons.star, color: Colors.amber),
-            //     ])
+            Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                mainAxisSize: MainAxisSize.max,
+                children: [
+                  Icon(Icons.star, color: Colors.amber),
+                  Icon(Icons.star, color: Colors.amber),
+                  Icon(Icons.star, color: Colors.amber),
+                ])
         )
     );
   }
@@ -129,26 +129,26 @@ class MinhaApp extends StatelessWidget{
         home: Scaffold(
             appBar: AppBar(title: Text("OlaApp")),
             body:
-            // Padding(
-            //   padding: EdgeInsets.all(10),
-            //   child: Text('Com espaçamento interno'),
-            // )
+            Padding(
+              padding: EdgeInsets.all(10),
+              child: Text('Com espaçamento interno'),
+            )
 
-            // Align(
-            //   alignment: Alignment.bottomRight,
-            //   child: Icon(Icons.send, color: Colors.blue),
-            // )
+            Align(
+              alignment: Alignment.bottomRight,
+              child: Icon(Icons.send, color: Colors.blue),
+            )
 
-            //Row(
-            // Column(
-            //   children: [
-            //     Icon(Icons.star),
-            //     SizedBox(width: 10),
-            //     Icon(Icons.star),
-            //     SizedBox(width: 10, height: 100),
-            //     Icon(Icons.star),
-            //   ]
-            // )
+            Row(
+            Column(
+              children: [
+                Icon(Icons.star),
+                SizedBox(width: 10),
+                Icon(Icons.star),
+                SizedBox(width: 10, height: 100),
+                Icon(Icons.star),
+              ]
+            )
         )
     );
   }
@@ -174,6 +174,13 @@ class MinhaApp extends StatelessWidget{
                   bottom: 100,
                   child: Icon(Icons.star, color: Colors.yellow),
                 ),
+                Positioned(
+                  left: 100,
+                  bottom: 50,
+                  child: Text(
+                      "Texto posicionado",
+                      style: TextStyle(fontSize: 30, color: Colors.black))
+                )
               ],
             )
         )
@@ -377,7 +384,7 @@ class MinhaApp extends StatelessWidget{
 }*/
 
 //Exemplo 14: Reutilizacao Adaptativa
-void main(){
+/*void main(){
   runApp(MinhaApp(
       items: List<String>.generate(
           10,
@@ -409,4 +416,4 @@ class MinhaApp extends StatelessWidget {
     );
   }
 
-}
+}*/
