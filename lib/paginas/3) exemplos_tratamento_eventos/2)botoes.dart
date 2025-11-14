@@ -1,7 +1,7 @@
 import 'package:ddm_hibrido/dados_compartilhados/modelos/calculadora.dart';
 import 'package:flutter/material.dart';
 //Exemplo 1 - botoes
-/*void main(){
+void main(){
   runApp(MinhaWidget());
 }
 
@@ -16,14 +16,16 @@ class MinhaWidget extends StatelessWidget{
             Center(
               child:
                 IconButton(
-                  icon: Icon(Icons.add_a_photo),
+                  color: Colors.amber,
+                  hoverColor: Colors.blue,
+                  icon: Icon(Icons.lock_clock),
                   onPressed: (){print("Pressionado!");}
                 )
             )
         )
     );
   }
-}*/
+}
 
 //Exemplo 2: IMC 2.0: calculando com botao
 /*void main(){
