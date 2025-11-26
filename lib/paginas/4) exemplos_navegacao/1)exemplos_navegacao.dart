@@ -28,7 +28,7 @@ class SegundaTela extends StatelessWidget{
 }*/
 
 //Exemplo 2: animacao de transicao
-import 'package:page_transition/page_transition.dart';
+/*import 'package:page_transition/page_transition.dart';
 void main(){
   runApp(MaterialApp(home: TelaInicial()));
 }
@@ -68,4 +68,4 @@ class SegundaTela extends StatelessWidget{
   Widget build(BuildContext context) {
     return Scaffold(body: Center(child: FloatingActionButton(child: Text("Voltar"), onPressed: (){Navigator.pop(context);})));
   }
-}
+}*/
