@@ -1,4 +1,4 @@
-//import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
 //Exemplo 1: clique simples
 /*main(){
