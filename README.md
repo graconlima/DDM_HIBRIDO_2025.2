@@ -1,6 +1,6 @@
 ## DDM 2025.1
 # Link para as apresentações: <p><a class="external-link" href="https://meet.google.com/sdp-knbj-hcp"> Apresentações </a></p>
-# Seminário 
+# Seminário (inicio das apresentações: 21/01/2026)
 ## - React Native (Lucas Pinheiro)
 ## - Inventor (Lucas de Morais)
 ## - NativeScript (Elder)
