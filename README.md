@@ -1,5 +1,11 @@
 ## DDM 2025.1
 # Link para as apresentações: <p><a class="external-link" href="https://meet.google.com/sdp-knbj-hcp"> Apresentações </a></p>
+# Seminário 
+## - React Native (Lucas Pinheiro)
+## - Inventor (Lucas de Morais)
+## - NativeScript (Elder)
+## - Ionic (Gabriel)
+## - Android (Nativo) (Neemias)
 
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EYZ_NaBnQhJPpFxFC27nn3cB61I0xeBszp_Gw7ssEd0GxQ?e=p0tTYd">e-book </a> - Notas de Aula</p>
 
