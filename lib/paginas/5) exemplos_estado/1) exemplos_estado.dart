@@ -69,7 +69,7 @@ class IMC extends StatelessWidget{
 }*/
 
 //Exemplo 2.2: IMC (com estado)
-/*void main(){
+void main(){
   runApp(AtualizadorTexto());
 }
 
@@ -109,7 +109,7 @@ class AtualizadorTextoEstado extends State{
     print("IMC: $imc");
     atualizarTexto();
   }
-}*/
+}
 
 //Exemplo 3 (extra): IMC com classificação
 /*void main(){
