@@ -1,5 +1,5 @@
-import 'package:ddm_hibrido/paginas/6)%20exemplos_comunicacao/MVC/Service/DataProvider.dart';
-import 'package:ddm_hibrido/paginas/6)%20exemplos_comunicacao/MVC/Service/Repository.dart';
+import '../Service/DataProvider.dart';
+import '../Service/Repository.dart';
 
 void main() async {
 

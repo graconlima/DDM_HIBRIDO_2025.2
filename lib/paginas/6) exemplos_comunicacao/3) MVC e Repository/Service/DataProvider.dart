@@ -1,6 +1,6 @@
 import 'dart:convert';
-import 'package:ddm_hibrido/paginas/6)%20exemplos_comunicacao/MVC/Model/Album.dart';
-import 'package:ddm_hibrido/paginas/6)%20exemplos_comunicacao/MVC/Service/AbstractDataProvider.dart';
+import '../Model/Album.dart';
+import '../Service/AbstractDataProvider.dart';
 import 'package:http/http.dart' as http;
 
 //encapsula o acesso a várias fontes diferentes

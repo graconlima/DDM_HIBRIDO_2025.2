@@ -1,4 +1,4 @@
-import 'package:ddm_hibrido/paginas/6)%20exemplos_comunicacao/MVC/Model/Album.dart';
+import '../Model/Album.dart';
 
 //modelo que os providers devem seguir
 abstract class AbstractDataProvider{
