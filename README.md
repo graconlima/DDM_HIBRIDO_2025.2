@@ -1,5 +1,5 @@
 ## DDM 2025.1
-# Link para as apresentações: <p><a class="external-link" href="https://meet.google.com/sdp-knbj-hcp"> Apresentações </a></p>
+# Link para as apresentações: <p><a class="external-link" href="https://meet.google.com/ukk-qpdy-iuj"> Apresentações </a></p>
 # Datas importantes 
 ## Apresentação das Tarefas 3 e 4: 12/12
 ## Apresentação das Tarefas 5 e 6: 21/01
