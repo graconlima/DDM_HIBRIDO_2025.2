@@ -1,11 +1,14 @@
 ## DDM 2025.1
 # Link para as apresentações: <p><a class="external-link" href="https://meet.google.com/sdp-knbj-hcp"> Apresentações </a></p>
-# Seminário (inicio das apresentações: 21/01/2026)
-## - React Native (Lucas Pinheiro)
-## - Inventor (Lucas de Morais)
-## - NativeScript (Elder)
-## - Ionic (Gabriel)
-## - Android (Nativo) (Neemias)
+# Datas importantes 
+## Apresentação das Tarefas 3 e 4: 12/12
+## Apresentação das Tarefas 5 e 6: 21/01
+## Seminário - inicio das apresentações: 23/01
+### - React Native (Lucas Pinheiro)
+### - Inventor (Lucas de Morais)
+### - NativeScript (Elder)
+### - Ionic (Gabriel)
+### - Android (Nativo) (Neemias)
 
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EYZ_NaBnQhJPpFxFC27nn3cB61I0xeBszp_Gw7ssEd0GxQ?e=p0tTYd">e-book </a> - Notas de Aula</p>
 
