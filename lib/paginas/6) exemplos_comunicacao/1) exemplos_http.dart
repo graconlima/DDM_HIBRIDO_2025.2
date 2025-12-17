@@ -8,7 +8,7 @@ import 'package:http/http.dart' as http;
 
 //vs 0.13.0
 /*void main() async {
-  print(await http.read(Uri(host: "jsonplaceholder.typicode.com")));
+  print(await http.read(Uri.https("jsonplaceholder.typicode.com")));
 }*/
 
 //Exemplo 2
@@ -38,7 +38,7 @@ void main() async {
 }*/
 
 //Exemplo 4 - convertendo a Resposta HTTP em Objeto Dart
-/*import 'dart:convert';
+import 'dart:convert';
 void main() async {
   var resposta = await http.get(Uri.https("jsonplaceholder.typicode.com", "albums/1"));
   var meuAlbum = MeuAlbum.converterJson(jsonDecode(resposta.body));
@@ -57,4 +57,4 @@ class MeuAlbum{
   factory MeuAlbum.converterJson(Map<String, dynamic> dadosJSON){
     return MeuAlbum(id: dadosJSON['id'], idUsuario: dadosJSON['userId'], titulo: dadosJSON['title']);
   }
-}*/
+}

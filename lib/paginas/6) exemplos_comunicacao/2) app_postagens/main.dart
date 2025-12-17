@@ -11,7 +11,7 @@ class TelaInicial extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Demo API',
-      home: ListaPostsPage(),   // 📌 TELA INICIAL
+      home: ListaPostsPage(),
     );
   }
 }
