@@ -45,12 +45,12 @@ Aula 4 - Estado
 
 Aula 5 - Conectividade e Persistência
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EZ-DpYA2BhFFha5Jr0u03ocBhuSN6M7pIYtY2f2bt3osjQ?e=c6ugfp">Aula 5.1 </a> - Comunicação (HTTP) </p>
-
-<!--
-
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/EdnfJi2ipitGmxEWd5y9VM8Bcrey2BTC43XyUn2uMJutWQ?e=FSAjwO">Aula 5.2 </a> - Banco de Dados </p>
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:t:/s/DDM2024.1/Efx51Ts5729JuvGjLDqrThAB39ZXaujljY7Jqvd4W1CYzw?e=LCVJbS">Aula 5.3 </a> - Introdução, UI, Estado, HTTP e BD  (links das videoaulas) </p>
 <p><a class="external-link" href="https://academicoifrnedu.sharepoint.com/:u:/s/DDM2024.1/ERZj51knrB1OoFY-gTnFKfUB8E3Q7sVOROlAes6l3pctZw?e=eJueqa">Aula 5.4 </a> - Tarefa 4 (API e BD - Nativo ou Híbrido) </p>
+
+<!--
+
 
 
 
